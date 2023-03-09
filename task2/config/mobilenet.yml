@@ -1,0 +1,17 @@
+train_csv_path: ./csv/train.csv
+test_csv_path: ./csv/test.csv
+epochs: 1
+batch_size: 5
+model_save_dir: ./runs/mobilenet/weights
+num_classes: 2
+lr: 0.001
+momentum:   
+weights_decay: 0.005
+log_dir: ./runs/mobilenet
+num_workers: 24
+model_save_freq: 2
+img_size: 512
+hflip_prob: 0.1
+img_rotation: 10
+print_freq: 10
+augmentation: True
